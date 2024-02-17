@@ -23,7 +23,7 @@ deployment = client.V1Deployment(
                 containers=[
                     client.V1Container(
                         name="my-flask-container",
-                        image="568373317874.dkr.ecr.us-east-1.amazonaws.com/my_monitoring_app_image:latest",
+                        image="058264422820.dkr.ecr.us-east-1.amazonaws.com/my_monitoring_app_image",
                         ports=[client.V1ContainerPort(container_port=5000)]
                     )
                 ]
